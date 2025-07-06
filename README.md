@@ -68,6 +68,8 @@ Smart NLP Terminal is a Natural Language Processing-powered desktop application 
 ├── dataset.csv           # Custom dataset (commands + NL inputs)
 ├── README.md             # Project readme
 
+---
+
 **📈 Future Scope**
 🧠 Integrate LLMs for smarter command prediction
 📁 Expand dataset for broader command support
@@ -75,4 +77,34 @@ Smart NLP Terminal is a Natural Language Processing-powered desktop application 
 🧑‍🎨 Improve GUI responsiveness and design
 📊 Feedback-based learning to refine predictions
 
+🛠️ How to Run the Project
+1. Start the Flask API
+bash
+Copy
+Edit
+python app.py
+It will run at http://127.0.0.1:5000/
+
+2. Run the GUI Interface
+In a new terminal, run:
+bash
+Copy
+Edit
+python frontend.py
+Now you can type natural commands like:
+
+create a folder called projects
+
+delete test.txt
+
+list all files
+
+change directory to Downloads
+
+💡 Example Input/Output
+Input: create a file called report.txt
+Output: File 'report.txt' created successfully.
+
+
 📍 Repository URL: https://github.com/TvesaDev3/NLP_based_command_prompt
+
