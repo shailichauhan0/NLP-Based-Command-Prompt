@@ -1,110 +1,134 @@
 # 💻 Smart NLP Terminal – A Natural Language Based GUI Command Prompt
-Smart NLP Terminal is a Natural Language Processing-powered desktop application that translates user-friendly text instructions into actual shell commands. It combines a Tkinter-based GUI with a Flask API backend and a trained Naive Bayes model to bridge the gap between everyday language and complex terminal syntax. Built as part of a Software Engineering course project (TCS611), it provides a secure, intuitive, and intelligent alternative to traditional command-line tools — especially for beginners.
 
-> A Software Engineering Project (TCS611)  
-> Developed by Team NLPrompt (SE(OS)-VI-T003)
+Smart NLP Terminal is a Natural Language Processing-powered desktop application that translates user-friendly text instructions into actual shell commands. It combines a Tkinter-based GUI with a Flask API backend and a trained Naive Bayes model to bridge the gap between everyday language and complex terminal syntax.
+
+> 💪 Developed as part of the **Software Engineering Project (TCS611)**
+> 👥 Team NLPrompt – Team ID: SE(OS)-VI-T003
+
+---
 
 ## 📌 Project Overview
 
 **Smart NLP Terminal** is a GUI-based command-line assistant that allows users to run shell commands using plain natural language. It is designed to simplify system-level tasks for non-technical users or those unfamiliar with command-line syntax by translating human-readable input into terminal commands.
 
+---
+
 ## 🚀 Key Features
 
-- 🧠 Natural Language Processing (NLP) to understand user input
-- 🖥️ GUI built with Tkinter for real-time interaction
-- 🔗 Flask backend to process inputs and predict commands
-- 📊 Trained TF-IDF + Multinomial Naive Bayes model
-- 🔁 Smart dynamic replacement of filenames/folder names in commands
-- 🛡️ Secure command execution with command whitelisting
-
-## 🏗️ Project Architecture
-
-### 1. GUI (Frontend)
-- Developed using Tkinter
-- Accepts natural language input from user
-- Displays terminal output in a console-like interface
-
-### 2. Backend (Flask API)
-- Receives user input via POST requests
-- Preprocesses text (tokenization, stemming, stopword removal using NLTK)
-- Uses TF-IDF + Naive Bayes model to predict shell command
-- Executes command securely and returns the output
-
-### 3. Smart Replacement Logic
-- Replaces natural language file/folder mentions with actual system paths using regex
-- Enhances execution accuracy and flexibility
-
-## 🧪 Testing Summary
-
-| Component               | Status | Notes                                               |
-|------------------------|--------|-----------------------------------------------------|
-| Unit Tests             | ✅ Pass | `clean()` and `smart_replace()` function as expected |
-| API Testing            | ✅ Pass | Flask API returns correct predictions               |
-| GUI Functionality      | ✅ Pass | Inputs/outputs work as intended                     |
-| Command Execution      | ✅ Pass | Commands run securely with proper substitution      |
-| Model Accuracy         | ✅ 96%  | Achieved 96% on custom dataset                      |
-
-
-## 🧾 Deliverables
-
-- ✅ GUI built using Tkinter
-- ✅ Flask API backend
-- ✅ Trained NLP model and TF-IDF vectorizer (`model.pkl`, `tfidf.pkl`)
-- ✅ `smart_replace()` logic
-- ✅ Secure command execution using subprocess
-- ✅ Custom dataset for command training
-- ✅ End-to-end integration between GUI and backend
-
-
-## 📂 File Structure
-
-```bash
-📦 nlp-smart-terminal/
-├── frontend.py           # GUI frontend using Tkinter
-├── app.py                # Flask backend API
-├── PBL_OS.py             # Training script for TF-IDF + Naive Bayes
-├── model.pkl             # Trained ML model
-├── tfidf.pkl             # Trained vectorizer
-├── dataset.csv           # Custom dataset (commands + NL inputs)
-├── README.md             # Project readme
+* 🧠 Natural Language Processing (NLP) to understand user input
+* 🖥️ GUI built with Tkinter for real-time interaction
+* 🔗 Flask backend to process inputs and predict commands
+* 📊 Trained TF-IDF + Multinomial Naive Bayes model
+* 🔀 Smart dynamic replacement of filenames/folder names in commands
+* 🛡️ Secure command execution with command whitelisting
 
 ---
 
-**📈 Future Scope**
-🧠 Integrate LLMs for smarter command prediction
-📁 Expand dataset for broader command support
-🔐 Risk-aware confirmation for critical commands
-🧑‍🎨 Improve GUI responsiveness and design
-📊 Feedback-based learning to refine predictions
+## 🏗️ Architecture Overview
 
-🛠️ How to Run the Project
-1. Start the Flask API
-bash
-Copy
-Edit
+### 🖥️ 1. GUI (Frontend)
+
+* Built with **Tkinter**
+* Accepts user input in natural language
+* Displays terminal output in a console-style interface
+
+### 🧠 2. Backend (Flask API)
+
+* Receives natural language via POST request
+* Cleans, stems, and vectorizes text using **NLTK** and **TF-IDF**
+* Predicts corresponding shell command with a trained **Naive Bayes** model
+* Safely executes command using Python `subprocess`/`os`
+
+### 🔀 3. Smart Replacement Logic
+
+* Detects filenames/folders from input using regex
+* Dynamically inserts them into generated shell commands
+
+---
+
+## 📂 File Structure
+
+```
+📆 nlp-smart-terminal/
+├── frontend.py           # GUI frontend using Tkinter
+├── app.py                # Flask backend API
+├── PBL_OS.py             # Training script for model and vectorizer
+├── model.pkl             # Trained Naive Bayes model
+├── tfidf.pkl             # Trained TF-IDF vectorizer
+├── dataset.csv           # Custom dataset (natural text ↔ shell command)
+├── README.md             # This documentation
+```
+
+---
+
+## ✅ Testing Summary
+
+| Component         | Status | Notes                                         |
+| ----------------- | ------ | --------------------------------------------- |
+| Unit Tests        | ✅ Pass | `clean()` and `smart_replace()` function well |
+| API Testing       | ✅ Pass | Flask returns valid predictions               |
+| GUI Functionality | ✅ Pass | Tkinter displays input/output properly        |
+| Command Execution | ✅ Pass | Commands executed securely and successfully   |
+| Model Accuracy    | ✅ 96%  | On validation set from dataset                |
+
+---
+
+## 🛠️ How to Run the Project
+
+### 🔹 1. Start the Flask API
+
+```bash
 python app.py
-It will run at http://127.0.0.1:5000/
+```
 
-2. Run the GUI Interface
-In a new terminal, run:
-bash
-Copy
-Edit
+> Runs at: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+
+### 🔹 2. Run the GUI Interface
+
+In a **new terminal**, run:
+
+```bash
 python frontend.py
-Now you can type natural commands like:
+```
 
-create a folder called projects
+### 💬 Example Natural Language Commands
 
-delete test.txt
+* `create a folder called projects`
+* `delete test.txt`
+* `list all files`
+* `change directory to Downloads`
 
-list all files
+### 💡 Example Input/Output
 
-change directory to Downloads
+**Input:**
+`create a file called report.txt`
 
-💡 Example Input/Output
-Input: create a file called report.txt
-Output: File 'report.txt' created successfully.
+**Output:**
+`File 'report.txt' created successfully.`
 
+---
 
-📍 Repository URL: https://github.com/TvesaDev3/NLP_based_command_prompt
+## 📈 Future Scope
 
+* 🧠 Integrate LLMs for smarter command prediction
+* 📁 Expand dataset for broader shell command coverage
+* 🔐 Add confirmation popups for risky commands
+* 👨‍🎨 Enhance GUI design and responsiveness
+* 📊 Collect feedback for model improvement over time
+
+---
+
+## 📍 Repository
+
+🔗 GitHub Repository: [NLP\_based\_command\_prompt](https://github.com/TvesaDev3/NLP_based_command_prompt)
+
+---
+
+## 👩‍💼 Developed By – Team NLPrompt
+
+| Name           | ID        | Role        |                                                                 
+| -------------- | --------- | ----------- |
+| Shaili Chauhan | 22022108  | Team Lead   | 
+| Tvesa Gupta    | 220221227 | Backend Dev | 
+| Aryan Singhal  | 220211967 | ML/NLP Dev  |
+| Aryan Parashar | 22021519  | GUI + API   | 
