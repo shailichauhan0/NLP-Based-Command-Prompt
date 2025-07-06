@@ -1,7 +1,5 @@
-# NLP-Based-Command-Prompt
-Smart NLP Terminal is a Natural Language Processing-powered desktop application that translates user-friendly text instructions into actual shell commands. It combines a Tkinter-based GUI with a Flask API backend and a trained Naive Bayes model to bridge the gap between everyday language and complex terminal syntax. Built as part of a Software Engineering course project (TCS611), it provides a secure, intuitive, and intelligent alternative to traditional command-line tools — especially for beginners.
-
 # 💻 Smart NLP Terminal – A Natural Language Based GUI Command Prompt
+Smart NLP Terminal is a Natural Language Processing-powered desktop application that translates user-friendly text instructions into actual shell commands. It combines a Tkinter-based GUI with a Flask API backend and a trained Naive Bayes model to bridge the gap between everyday language and complex terminal syntax. Built as part of a Software Engineering course project (TCS611), it provides a secure, intuitive, and intelligent alternative to traditional command-line tools — especially for beginners.
 
 > A Software Engineering Project (TCS611)  
 > Developed by Team NLPrompt (SE(OS)-VI-T003)
