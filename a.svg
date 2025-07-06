@@ -1,0 +1,180 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A90E2" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#357ABD" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#50C878" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#228B22" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B6B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#E74C3C" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B59B6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8E44AD" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Smart NLP Terminal - Architecture Overview</text>
+  
+  <!-- User Layer -->
+  <rect x="50" y="70" width="1100" height="100" fill="url(#grad1)" rx="10" filter="url(#shadow)"/>
+  <text x="600" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">USER INTERFACE LAYER</text>
+  
+  <!-- User Input -->
+  <rect x="80" y="110" width="200" height="40" fill="white" rx="5" stroke="#357ABD" stroke-width="2"/>
+  <text x="180" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Natural Language Input</text>
+  <text x="180" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">"list all files in folder"</text>
+  
+  <!-- GUI Display -->
+  <rect x="920" y="110" width="200" height="40" fill="white" rx="5" stroke="#357ABD" stroke-width="2"/>
+  <text x="1020" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Command Output Display</text>
+  <text x="1020" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Console-like Interface</text>
+  
+  <!-- Frontend Layer -->
+  <rect x="50" y="200" width="1100" height="120" fill="url(#grad2)" rx="10" filter="url(#shadow)"/>
+  <text x="600" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">FRONTEND LAYER (Tkinter GUI)</text>
+  
+  <!-- GUI Components -->
+  <rect x="100" y="250" width="150" height="50" fill="white" rx="5" stroke="#228B22" stroke-width="2"/>
+  <text x="175" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Input Handler</text>
+  <text x="175" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Text Processing</text>
+  
+  <rect x="300" y="250" width="150" height="50" fill="white" rx="5" stroke="#228B22" stroke-width="2"/>
+  <text x="375" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">API Connector</text>
+  <text x="375" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">HTTP Requests</text>
+  
+  <rect x="500" y="250" width="150" height="50" fill="white" rx="5" stroke="#228B22" stroke-width="2"/>
+  <text x="575" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Response Handler</text>
+  <text x="575" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Output Formatting</text>
+  
+  <rect x="700" y="250" width="150" height="50" fill="white" rx="5" stroke="#228B22" stroke-width="2"/>
+  <text x="775" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Error Handler</text>
+  <text x="775" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Exception Management</text>
+  
+  <rect x="900" y="250" width="150" height="50" fill="white" rx="5" stroke="#228B22" stroke-width="2"/>
+  <text x="975" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Display Manager</text>
+  <text x="975" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Console Interface</text>
+  
+  <!-- Backend Layer -->
+  <rect x="50" y="350" width="1100" height="280" fill="url(#grad3)" rx="10" filter="url(#shadow)"/>
+  <text x="600" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">BACKEND LAYER (Flask API)</text>
+  
+  <!-- NLP Processing Pipeline -->
+  <rect x="80" y="400" width="280" height="200" fill="white" rx="8" stroke="#E74C3C" stroke-width="2"/>
+  <text x="220" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">NLP Processing Pipeline</text>
+  
+  <rect x="100" y="440" width="100" height="30" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="150" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Text Cleaning</text>
+  
+  <rect x="220" y="440" width="120" height="30" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="280" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Stop Word Removal</text>
+  
+  <rect x="100" y="480" width="80" height="30" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="140" y="498" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Stemming</text>
+  
+  <rect x="200" y="480" width="140" height="30" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="270" y="498" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">TF-IDF Vectorization</text>
+  
+  <rect x="100" y="520" width="240" height="30" fill="#f39c12" rx="3" stroke="#e67e22" stroke-width="1"/>
+  <text x="220" y="538" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">Multinomial Naive Bayes</text>
+  
+  <rect x="120" y="560" width="200" height="25" fill="#3498db" rx="3" stroke="#2980b9" stroke-width="1"/>
+  <text x="220" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Command Prediction (96% Accuracy)</text>
+  
+  <!-- Smart Replacement -->
+  <rect x="400" y="400" width="180" height="120" fill="white" rx="8" stroke="#E74C3C" stroke-width="2"/>
+  <text x="490" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Smart Replacement</text>
+  
+  <rect x="420" y="440" width="140" height="25" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="490" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Pattern Matching</text>
+  
+  <rect x="420" y="475" width="140" height="25" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="490" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Dynamic Substitution</text>
+  
+  <!-- Command Execution -->
+  <rect x="620" y="400" width="200" height="120" fill="white" rx="8" stroke="#E74C3C" stroke-width="2"/>
+  <text x="720" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Command Execution</text>
+  
+  <rect x="640" y="440" width="80" height="25" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="680" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Subprocess</text>
+  
+  <rect x="730" y="440" width="70" height="25" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="765" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">OS Module</text>
+  
+  <rect x="640" y="475" width="160" height="25" fill="#e74c3c" rx="3" stroke="#c0392b" stroke-width="1"/>
+  <text x="720" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Security Filtering</text>
+  
+  <!-- Security Layer -->
+  <rect x="860" y="400" width="200" height="120" fill="white" rx="8" stroke="#E74C3C" stroke-width="2"/>
+  <text x="960" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Security Layer</text>
+  
+  <rect x="880" y="440" width="160" height="25" fill="#ecf0f1" rx="3" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="960" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Command Whitelisting</text>
+  
+  <rect x="880" y="475" width="160" height="25" fill="#e74c3c" rx="3" stroke="#c0392b" stroke-width="1"/>
+  <text x="960" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Dangerous Command Block</text>
+  
+  <!-- System Layer -->
+  <rect x="50" y="660" width="1100" height="100" fill="url(#grad4)" rx="10" filter="url(#shadow)"/>
+  <text x="600" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">SYSTEM LAYER</text>
+  
+  <!-- System Components -->
+  <rect x="150" y="710" width="120" height="30" fill="white" rx="5" stroke="#8E44AD" stroke-width="2"/>
+  <text x="210" y="728" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">File System</text>
+  
+  <rect x="320" y="710" width="120" height="30" fill="white" rx="5" stroke="#8E44AD" stroke-width="2"/>
+  <text x="380" y="728" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Directory Navigation</text>
+  
+  <rect x="490" y="710" width="120" height="30" fill="white" rx="5" stroke="#8E44AD" stroke-width="2"/>
+  <text x="550" y="728" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Process Management</text>
+  
+  <rect x="660" y="710" width="120" height="30" fill="white" rx="5" stroke="#8E44AD" stroke-width="2"/>
+  <text x="720" y="728" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Shell Commands</text>
+  
+  <rect x="840" y="710" width="120" height="30" fill="white" rx="5" stroke="#8E44AD" stroke-width="2"/>
+  <text x="900" y="728" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">System Output</text>
+  
+  <!-- Arrows -->
+  <!-- User to Frontend -->
+  <path d="M 180 170 L 180 200" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 1020 170 L 1020 200" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Frontend to Backend -->
+  <path d="M 375 320 L 375 350" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Within Backend -->
+  <path d="M 360 490 L 400 490" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 580 460 L 620 460" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Backend to System -->
+  <path d="M 720 630 L 720 660" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Data Flow Labels -->
+  <text x="200" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" font-weight="bold">Input</text>
+  <text x="1000" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" font-weight="bold">Output</text>
+  <text x="395" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" font-weight="bold">HTTP POST</text>
+  <text x="600" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" font-weight="bold">Command</text>
+  <text x="740" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" font-weight="bold">Execute</text>
+  
+  <!-- Technology Stack -->
+  <rect x="50" y="775" width="300" height="20" fill="#34495e" rx="3"/>
+  <text x="200" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Tech Stack: Python, Tkinter, Flask, NLTK, Scikit-learn</text>
+</svg>
