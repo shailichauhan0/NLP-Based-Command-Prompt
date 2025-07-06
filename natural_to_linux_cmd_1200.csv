@@ -1,0 +1,1201 @@
+input,output
+please show me the files in this folder right away,ls
+how do i list the files right away,ls
+can you display files right away,ls
+what's in this directory please,ls
+show files with details now,ls -l
+please list files with permissions please,ls -l
+display detailed view now,ls -l
+long format list of files for me,ls -l
+show all files including hidden ones now,ls -a
+please list everything even hidden please,ls -a
+how do i display all files,ls -a
+how do i see hidden files too,ls -a
+can you go into the foldername directory,cd foldername
+enter foldername now,cd foldername
+change to foldername please,cd foldername
+how do i open foldername right away,cd foldername
+please go back one folder,cd ..
+how do i move up a directory right away,cd ..
+i want to return to parent folder for me,cd ..
+i want to step back one level,cd ..
+can you where am I right now please,pwd
+i want to show current path right away,pwd
+print working directory right away,pwd
+display current directory now,pwd
+i want to make a new folder called myfolder please,mkdir myfolder
+i want to create directory myfolder right away,mkdir myfolder
+please new folder named myfolder,mkdir myfolder
+i want to make folder myfolder,mkdir myfolder
+how do i delete the empty folder myfolder please,rmdir myfolder
+how do i remove myfolder directory,rmdir myfolder
+how do i delete folder myfolder,rmdir myfolder
+erase empty folder myfolder,rmdir myfolder
+can you delete the file file.txt,rm file.txt
+please remove file.txt now,rm file.txt
+erase file.txt now,rm file.txt
+i want to get rid of file.txt please,rm file.txt
+delete the folder myfolder and everything inside it for me,rm -r myfolder
+please remove directory myfolder recursively please,rm -r myfolder
+can you delete all contents of myfolder please,rm -r myfolder
+please erase myfolder completely now,rm -r myfolder
+can you create an empty file named notes.txt now,touch notes.txt
+how do i make a blank file notes.txt please,touch notes.txt
+how do i new file notes.txt right away,touch notes.txt
+can you generate file notes.txt right away,touch notes.txt
+how do i copy a.txt to b.txt now,cp a.txt b.txt
+can you duplicate a.txt as b.txt now,cp a.txt b.txt
+make a copy of a.txt to b.txt,cp a.txt b.txt
+copy file from a.txt to b.txt for me,cp a.txt b.txt
+how do i move a.txt to b.txt now,mv a.txt b.txt
+please rename a.txt to b.txt now,mv a.txt b.txt
+i want to shift a.txt to b.txt right away,mv a.txt b.txt
+how do i relocate a.txt as b.txt,mv a.txt b.txt
+find a file named test.txt for me,"find . -name ""test.txt"""
+please look for test.txt in current folder,"find . -name ""test.txt"""
+search for test.txt,"find . -name ""test.txt"""
+how do i locate file test.txt right away,"find . -name ""test.txt"""
+please show this folder as a tree right away,tree
+how do i display directory tree please,tree
+i want to visualize folder structure,tree
+i want to print folder hierarchy,tree
+show the first few lines of file.txt for me,head file.txt
+i want to display beginning of file.txt now,head file.txt
+head of file.txt,head file.txt
+print top of file.txt right away,head file.txt
+show the last few lines of file.txt right away,tail file.txt
+how do i display end of file.txt now,tail file.txt
+tail of file.txt for me,tail file.txt
+how do i print bottom of file.txt for me,tail file.txt
+how do i show contents of file.txt right away,cat file.txt
+please print file.txt for me,cat file.txt
+display file.txt right away,cat file.txt
+how do i output file.txt content now,cat file.txt
+how do i show me the files in this folder now,ls
+please list the files,ls
+i want to display files right away,ls
+what's in this directory,ls
+can you show files with details right away,ls -l
+how do i list files with permissions now,ls -l
+i want to display detailed view right away,ls -l
+how do i long format list of files right away,ls -l
+how do i show all files including hidden ones now,ls -a
+how do i list everything even hidden now,ls -a
+display all files for me,ls -a
+i want to see hidden files too right away,ls -a
+how do i go into the foldername directory right away,cd foldername
+how do i enter foldername now,cd foldername
+how do i change to foldername right away,cd foldername
+open foldername now,cd foldername
+please go back one folder,cd ..
+i want to move up a directory right away,cd ..
+how do i return to parent folder for me,cd ..
+can you step back one level,cd ..
+how do i where am I right now for me,pwd
+can you show current path now,pwd
+print working directory please,pwd
+can you display current directory right away,pwd
+make a new folder called myfolder right away,mkdir myfolder
+i want to create directory myfolder now,mkdir myfolder
+can you new folder named myfolder right away,mkdir myfolder
+make folder myfolder now,mkdir myfolder
+delete the empty folder myfolder now,rmdir myfolder
+i want to remove myfolder directory please,rmdir myfolder
+can you delete folder myfolder please,rmdir myfolder
+erase empty folder myfolder,rmdir myfolder
+how do i delete the file file.txt,rm file.txt
+remove file.txt for me,rm file.txt
+how do i erase file.txt for me,rm file.txt
+get rid of file.txt now,rm file.txt
+delete the folder myfolder and everything inside it now,rm -r myfolder
+please remove directory myfolder recursively please,rm -r myfolder
+can you delete all contents of myfolder right away,rm -r myfolder
+erase myfolder completely,rm -r myfolder
+i want to create an empty file named notes.txt,touch notes.txt
+i want to make a blank file notes.txt right away,touch notes.txt
+i want to new file notes.txt now,touch notes.txt
+can you generate file notes.txt right away,touch notes.txt
+how do i copy a.txt to b.txt right away,cp a.txt b.txt
+how do i duplicate a.txt as b.txt for me,cp a.txt b.txt
+make a copy of a.txt to b.txt,cp a.txt b.txt
+please copy file from a.txt to b.txt right away,cp a.txt b.txt
+can you move a.txt to b.txt right away,mv a.txt b.txt
+rename a.txt to b.txt now,mv a.txt b.txt
+i want to shift a.txt to b.txt please,mv a.txt b.txt
+please relocate a.txt as b.txt now,mv a.txt b.txt
+can you find a file named test.txt now,"find . -name ""test.txt"""
+how do i look for test.txt in current folder please,"find . -name ""test.txt"""
+please search for test.txt for me,"find . -name ""test.txt"""
+i want to locate file test.txt now,"find . -name ""test.txt"""
+please show this folder as a tree for me,tree
+can you display directory tree right away,tree
+can you visualize folder structure for me,tree
+please print folder hierarchy right away,tree
+show the first few lines of file.txt right away,head file.txt
+display beginning of file.txt now,head file.txt
+i want to head of file.txt please,head file.txt
+i want to print top of file.txt right away,head file.txt
+please show the last few lines of file.txt for me,tail file.txt
+please display end of file.txt right away,tail file.txt
+how do i tail of file.txt now,tail file.txt
+please print bottom of file.txt for me,tail file.txt
+can you show contents of file.txt for me,cat file.txt
+please print file.txt please,cat file.txt
+i want to display file.txt for me,cat file.txt
+can you output file.txt content please,cat file.txt
+can you show me the files in this folder now,ls
+how do i list the files please,ls
+can you display files now,ls
+can you what's in this directory for me,ls
+please show files with details,ls -l
+please list files with permissions,ls -l
+can you display detailed view right away,ls -l
+long format list of files now,ls -l
+how do i show all files including hidden ones please,ls -a
+how do i list everything even hidden now,ls -a
+can you display all files now,ls -a
+how do i see hidden files too for me,ls -a
+i want to go into the foldername directory now,cd foldername
+please enter foldername please,cd foldername
+please change to foldername please,cd foldername
+open foldername for me,cd foldername
+can you go back one folder for me,cd ..
+how do i move up a directory for me,cd ..
+i want to return to parent folder now,cd ..
+i want to step back one level,cd ..
+i want to where am I right now right away,pwd
+i want to show current path right away,pwd
+how do i print working directory for me,pwd
+display current directory,pwd
+please make a new folder called myfolder please,mkdir myfolder
+i want to create directory myfolder right away,mkdir myfolder
+i want to new folder named myfolder now,mkdir myfolder
+i want to make folder myfolder now,mkdir myfolder
+delete the empty folder myfolder,rmdir myfolder
+can you remove myfolder directory for me,rmdir myfolder
+how do i delete folder myfolder please,rmdir myfolder
+i want to erase empty folder myfolder please,rmdir myfolder
+please delete the file file.txt for me,rm file.txt
+please remove file.txt,rm file.txt
+please erase file.txt now,rm file.txt
+get rid of file.txt right away,rm file.txt
+delete the folder myfolder and everything inside it right away,rm -r myfolder
+please remove directory myfolder recursively,rm -r myfolder
+i want to delete all contents of myfolder for me,rm -r myfolder
+how do i erase myfolder completely right away,rm -r myfolder
+can you create an empty file named notes.txt for me,touch notes.txt
+i want to make a blank file notes.txt right away,touch notes.txt
+please new file notes.txt right away,touch notes.txt
+can you generate file notes.txt now,touch notes.txt
+can you copy a.txt to b.txt right away,cp a.txt b.txt
+please duplicate a.txt as b.txt now,cp a.txt b.txt
+i want to make a copy of a.txt to b.txt right away,cp a.txt b.txt
+please copy file from a.txt to b.txt please,cp a.txt b.txt
+i want to move a.txt to b.txt right away,mv a.txt b.txt
+how do i rename a.txt to b.txt,mv a.txt b.txt
+how do i shift a.txt to b.txt please,mv a.txt b.txt
+relocate a.txt as b.txt now,mv a.txt b.txt
+please find a file named test.txt now,"find . -name ""test.txt"""
+please look for test.txt in current folder,"find . -name ""test.txt"""
+please search for test.txt,"find . -name ""test.txt"""
+please locate file test.txt right away,"find . -name ""test.txt"""
+can you show this folder as a tree right away,tree
+please display directory tree,tree
+please visualize folder structure for me,tree
+please print folder hierarchy right away,tree
+i want to show the first few lines of file.txt for me,head file.txt
+i want to display beginning of file.txt now,head file.txt
+please head of file.txt for me,head file.txt
+i want to print top of file.txt right away,head file.txt
+i want to show the last few lines of file.txt for me,tail file.txt
+how do i display end of file.txt right away,tail file.txt
+tail of file.txt right away,tail file.txt
+how do i print bottom of file.txt,tail file.txt
+can you show contents of file.txt for me,cat file.txt
+print file.txt for me,cat file.txt
+display file.txt now,cat file.txt
+i want to output file.txt content,cat file.txt
+i want to show me the files in this folder now,ls
+can you list the files now,ls
+i want to display files please,ls
+please what's in this directory for me,ls
+can you show files with details for me,ls -l
+please list files with permissions for me,ls -l
+display detailed view now,ls -l
+can you long format list of files right away,ls -l
+i want to show all files including hidden ones now,ls -a
+can you list everything even hidden please,ls -a
+i want to display all files please,ls -a
+i want to see hidden files too right away,ls -a
+can you go into the foldername directory now,cd foldername
+enter foldername,cd foldername
+can you change to foldername now,cd foldername
+i want to open foldername please,cd foldername
+please go back one folder,cd ..
+how do i move up a directory now,cd ..
+return to parent folder please,cd ..
+step back one level,cd ..
+i want to where am I right now for me,pwd
+show current path now,pwd
+i want to print working directory now,pwd
+please display current directory right away,pwd
+make a new folder called myfolder please,mkdir myfolder
+please create directory myfolder please,mkdir myfolder
+please new folder named myfolder now,mkdir myfolder
+i want to make folder myfolder please,mkdir myfolder
+can you delete the empty folder myfolder for me,rmdir myfolder
+how do i remove myfolder directory for me,rmdir myfolder
+delete folder myfolder,rmdir myfolder
+i want to erase empty folder myfolder please,rmdir myfolder
+please delete the file file.txt please,rm file.txt
+please remove file.txt right away,rm file.txt
+i want to erase file.txt right away,rm file.txt
+please get rid of file.txt now,rm file.txt
+please delete the folder myfolder and everything inside it,rm -r myfolder
+can you remove directory myfolder recursively right away,rm -r myfolder
+please delete all contents of myfolder now,rm -r myfolder
+please erase myfolder completely now,rm -r myfolder
+please create an empty file named notes.txt for me,touch notes.txt
+how do i make a blank file notes.txt for me,touch notes.txt
+new file notes.txt please,touch notes.txt
+generate file notes.txt right away,touch notes.txt
+please copy a.txt to b.txt,cp a.txt b.txt
+how do i duplicate a.txt as b.txt right away,cp a.txt b.txt
+i want to make a copy of a.txt to b.txt for me,cp a.txt b.txt
+i want to copy file from a.txt to b.txt for me,cp a.txt b.txt
+please move a.txt to b.txt please,mv a.txt b.txt
+please rename a.txt to b.txt now,mv a.txt b.txt
+i want to shift a.txt to b.txt,mv a.txt b.txt
+how do i relocate a.txt as b.txt,mv a.txt b.txt
+how do i find a file named test.txt for me,"find . -name ""test.txt"""
+can you look for test.txt in current folder please,"find . -name ""test.txt"""
+please search for test.txt right away,"find . -name ""test.txt"""
+i want to locate file test.txt,"find . -name ""test.txt"""
+i want to show this folder as a tree please,tree
+please display directory tree right away,tree
+can you visualize folder structure right away,tree
+print folder hierarchy please,tree
+show the first few lines of file.txt now,head file.txt
+display beginning of file.txt right away,head file.txt
+i want to head of file.txt now,head file.txt
+can you print top of file.txt now,head file.txt
+show the last few lines of file.txt now,tail file.txt
+can you display end of file.txt for me,tail file.txt
+i want to tail of file.txt please,tail file.txt
+print bottom of file.txt now,tail file.txt
+i want to show contents of file.txt,cat file.txt
+can you print file.txt please,cat file.txt
+how do i display file.txt please,cat file.txt
+output file.txt content please,cat file.txt
+can you show me the files in this folder,ls
+i want to list the files please,ls
+can you display files now,ls
+i want to what's in this directory,ls
+i want to show files with details please,ls -l
+can you list files with permissions please,ls -l
+how do i display detailed view for me,ls -l
+how do i long format list of files,ls -l
+how do i show all files including hidden ones,ls -a
+i want to list everything even hidden,ls -a
+i want to display all files,ls -a
+can you see hidden files too for me,ls -a
+please go into the foldername directory now,cd foldername
+can you enter foldername please,cd foldername
+i want to change to foldername right away,cd foldername
+i want to open foldername please,cd foldername
+go back one folder for me,cd ..
+move up a directory right away,cd ..
+i want to return to parent folder now,cd ..
+i want to step back one level for me,cd ..
+how do i where am I right now,pwd
+can you show current path,pwd
+how do i print working directory now,pwd
+can you display current directory for me,pwd
+please make a new folder called myfolder for me,mkdir myfolder
+can you create directory myfolder right away,mkdir myfolder
+i want to new folder named myfolder right away,mkdir myfolder
+can you make folder myfolder right away,mkdir myfolder
+i want to delete the empty folder myfolder,rmdir myfolder
+how do i remove myfolder directory now,rmdir myfolder
+how do i delete folder myfolder now,rmdir myfolder
+i want to erase empty folder myfolder right away,rmdir myfolder
+how do i delete the file file.txt now,rm file.txt
+please remove file.txt for me,rm file.txt
+please erase file.txt now,rm file.txt
+i want to get rid of file.txt for me,rm file.txt
+delete the folder myfolder and everything inside it please,rm -r myfolder
+can you remove directory myfolder recursively right away,rm -r myfolder
+please delete all contents of myfolder,rm -r myfolder
+please erase myfolder completely for me,rm -r myfolder
+i want to create an empty file named notes.txt please,touch notes.txt
+can you make a blank file notes.txt for me,touch notes.txt
+how do i new file notes.txt for me,touch notes.txt
+generate file notes.txt,touch notes.txt
+i want to copy a.txt to b.txt please,cp a.txt b.txt
+i want to duplicate a.txt as b.txt right away,cp a.txt b.txt
+please make a copy of a.txt to b.txt,cp a.txt b.txt
+i want to copy file from a.txt to b.txt,cp a.txt b.txt
+can you move a.txt to b.txt,mv a.txt b.txt
+rename a.txt to b.txt right away,mv a.txt b.txt
+shift a.txt to b.txt,mv a.txt b.txt
+please relocate a.txt as b.txt now,mv a.txt b.txt
+can you find a file named test.txt,"find . -name ""test.txt"""
+how do i look for test.txt in current folder right away,"find . -name ""test.txt"""
+can you search for test.txt now,"find . -name ""test.txt"""
+can you locate file test.txt right away,"find . -name ""test.txt"""
+please show this folder as a tree now,tree
+can you display directory tree please,tree
+i want to visualize folder structure right away,tree
+can you print folder hierarchy please,tree
+i want to show the first few lines of file.txt please,head file.txt
+i want to display beginning of file.txt,head file.txt
+please head of file.txt right away,head file.txt
+i want to print top of file.txt please,head file.txt
+can you show the last few lines of file.txt now,tail file.txt
+i want to display end of file.txt please,tail file.txt
+please tail of file.txt now,tail file.txt
+how do i print bottom of file.txt please,tail file.txt
+show contents of file.txt for me,cat file.txt
+i want to print file.txt now,cat file.txt
+can you display file.txt,cat file.txt
+please output file.txt content,cat file.txt
+please show me the files in this folder please,ls
+how do i list the files for me,ls
+how do i display files,ls
+i want to what's in this directory right away,ls
+show files with details,ls -l
+please list files with permissions now,ls -l
+how do i display detailed view now,ls -l
+long format list of files for me,ls -l
+can you show all files including hidden ones,ls -a
+list everything even hidden please,ls -a
+display all files for me,ls -a
+can you see hidden files too for me,ls -a
+please go into the foldername directory right away,cd foldername
+please enter foldername now,cd foldername
+i want to change to foldername now,cd foldername
+open foldername now,cd foldername
+please go back one folder,cd ..
+move up a directory for me,cd ..
+can you return to parent folder now,cd ..
+please step back one level for me,cd ..
+how do i where am I right now please,pwd
+i want to show current path please,pwd
+i want to print working directory right away,pwd
+display current directory for me,pwd
+please make a new folder called myfolder right away,mkdir myfolder
+i want to create directory myfolder please,mkdir myfolder
+how do i new folder named myfolder now,mkdir myfolder
+make folder myfolder,mkdir myfolder
+i want to delete the empty folder myfolder please,rmdir myfolder
+remove myfolder directory for me,rmdir myfolder
+delete folder myfolder for me,rmdir myfolder
+please erase empty folder myfolder for me,rmdir myfolder
+can you delete the file file.txt now,rm file.txt
+remove file.txt,rm file.txt
+can you erase file.txt,rm file.txt
+can you get rid of file.txt now,rm file.txt
+i want to delete the folder myfolder and everything inside it now,rm -r myfolder
+please remove directory myfolder recursively right away,rm -r myfolder
+how do i delete all contents of myfolder please,rm -r myfolder
+please erase myfolder completely now,rm -r myfolder
+please create an empty file named notes.txt please,touch notes.txt
+please make a blank file notes.txt for me,touch notes.txt
+how do i new file notes.txt,touch notes.txt
+i want to generate file notes.txt for me,touch notes.txt
+i want to copy a.txt to b.txt please,cp a.txt b.txt
+how do i duplicate a.txt as b.txt please,cp a.txt b.txt
+make a copy of a.txt to b.txt right away,cp a.txt b.txt
+please copy file from a.txt to b.txt right away,cp a.txt b.txt
+how do i move a.txt to b.txt,mv a.txt b.txt
+rename a.txt to b.txt,mv a.txt b.txt
+i want to shift a.txt to b.txt please,mv a.txt b.txt
+how do i relocate a.txt as b.txt now,mv a.txt b.txt
+find a file named test.txt for me,"find . -name ""test.txt"""
+look for test.txt in current folder for me,"find . -name ""test.txt"""
+i want to search for test.txt please,"find . -name ""test.txt"""
+i want to locate file test.txt now,"find . -name ""test.txt"""
+show this folder as a tree,tree
+display directory tree please,tree
+visualize folder structure right away,tree
+can you print folder hierarchy please,tree
+i want to show the first few lines of file.txt right away,head file.txt
+display beginning of file.txt for me,head file.txt
+please head of file.txt please,head file.txt
+i want to print top of file.txt for me,head file.txt
+can you show the last few lines of file.txt for me,tail file.txt
+how do i display end of file.txt right away,tail file.txt
+can you tail of file.txt,tail file.txt
+please print bottom of file.txt for me,tail file.txt
+i want to show contents of file.txt please,cat file.txt
+i want to print file.txt now,cat file.txt
+display file.txt right away,cat file.txt
+please output file.txt content now,cat file.txt
+please show me the files in this folder please,ls
+list the files now,ls
+can you display files please,ls
+i want to what's in this directory please,ls
+how do i show files with details please,ls -l
+how do i list files with permissions for me,ls -l
+how do i display detailed view right away,ls -l
+i want to long format list of files please,ls -l
+i want to show all files including hidden ones,ls -a
+please list everything even hidden right away,ls -a
+please display all files for me,ls -a
+please see hidden files too,ls -a
+please go into the foldername directory for me,cd foldername
+please enter foldername right away,cd foldername
+please change to foldername please,cd foldername
+please open foldername right away,cd foldername
+how do i go back one folder please,cd ..
+can you move up a directory,cd ..
+return to parent folder for me,cd ..
+please step back one level now,cd ..
+how do i where am I right now please,pwd
+i want to show current path,pwd
+print working directory please,pwd
+please display current directory now,pwd
+i want to make a new folder called myfolder now,mkdir myfolder
+i want to create directory myfolder please,mkdir myfolder
+can you new folder named myfolder,mkdir myfolder
+how do i make folder myfolder for me,mkdir myfolder
+how do i delete the empty folder myfolder for me,rmdir myfolder
+remove myfolder directory right away,rmdir myfolder
+delete folder myfolder please,rmdir myfolder
+how do i erase empty folder myfolder please,rmdir myfolder
+delete the file file.txt for me,rm file.txt
+please remove file.txt,rm file.txt
+erase file.txt,rm file.txt
+how do i get rid of file.txt for me,rm file.txt
+delete the folder myfolder and everything inside it right away,rm -r myfolder
+please remove directory myfolder recursively right away,rm -r myfolder
+delete all contents of myfolder right away,rm -r myfolder
+how do i erase myfolder completely right away,rm -r myfolder
+how do i create an empty file named notes.txt right away,touch notes.txt
+how do i make a blank file notes.txt please,touch notes.txt
+i want to new file notes.txt please,touch notes.txt
+can you generate file notes.txt right away,touch notes.txt
+how do i copy a.txt to b.txt right away,cp a.txt b.txt
+duplicate a.txt as b.txt for me,cp a.txt b.txt
+i want to make a copy of a.txt to b.txt,cp a.txt b.txt
+i want to copy file from a.txt to b.txt please,cp a.txt b.txt
+please move a.txt to b.txt right away,mv a.txt b.txt
+rename a.txt to b.txt now,mv a.txt b.txt
+shift a.txt to b.txt please,mv a.txt b.txt
+can you relocate a.txt as b.txt now,mv a.txt b.txt
+please find a file named test.txt please,"find . -name ""test.txt"""
+can you look for test.txt in current folder for me,"find . -name ""test.txt"""
+can you search for test.txt for me,"find . -name ""test.txt"""
+can you locate file test.txt now,"find . -name ""test.txt"""
+i want to show this folder as a tree please,tree
+i want to display directory tree for me,tree
+visualize folder structure for me,tree
+i want to print folder hierarchy now,tree
+please show the first few lines of file.txt for me,head file.txt
+please display beginning of file.txt now,head file.txt
+how do i head of file.txt,head file.txt
+print top of file.txt right away,head file.txt
+can you show the last few lines of file.txt please,tail file.txt
+please display end of file.txt,tail file.txt
+how do i tail of file.txt now,tail file.txt
+can you print bottom of file.txt now,tail file.txt
+can you show contents of file.txt right away,cat file.txt
+i want to print file.txt please,cat file.txt
+can you display file.txt right away,cat file.txt
+output file.txt content please,cat file.txt
+i want to show me the files in this folder now,ls
+list the files right away,ls
+i want to display files please,ls
+what's in this directory right away,ls
+can you show files with details right away,ls -l
+please list files with permissions please,ls -l
+can you display detailed view for me,ls -l
+i want to long format list of files now,ls -l
+i want to show all files including hidden ones,ls -a
+list everything even hidden for me,ls -a
+i want to display all files now,ls -a
+i want to see hidden files too please,ls -a
+please go into the foldername directory please,cd foldername
+enter foldername now,cd foldername
+how do i change to foldername now,cd foldername
+i want to open foldername,cd foldername
+how do i go back one folder,cd ..
+please move up a directory right away,cd ..
+how do i return to parent folder for me,cd ..
+please step back one level for me,cd ..
+how do i where am I right now right away,pwd
+how do i show current path please,pwd
+print working directory right away,pwd
+can you display current directory,pwd
+please make a new folder called myfolder for me,mkdir myfolder
+can you create directory myfolder,mkdir myfolder
+how do i new folder named myfolder please,mkdir myfolder
+make folder myfolder please,mkdir myfolder
+i want to delete the empty folder myfolder now,rmdir myfolder
+please remove myfolder directory,rmdir myfolder
+can you delete folder myfolder now,rmdir myfolder
+can you erase empty folder myfolder now,rmdir myfolder
+delete the file file.txt for me,rm file.txt
+how do i remove file.txt right away,rm file.txt
+i want to erase file.txt please,rm file.txt
+please get rid of file.txt please,rm file.txt
+delete the folder myfolder and everything inside it right away,rm -r myfolder
+how do i remove directory myfolder recursively for me,rm -r myfolder
+how do i delete all contents of myfolder,rm -r myfolder
+how do i erase myfolder completely now,rm -r myfolder
+i want to create an empty file named notes.txt for me,touch notes.txt
+i want to make a blank file notes.txt please,touch notes.txt
+new file notes.txt,touch notes.txt
+how do i generate file notes.txt please,touch notes.txt
+please copy a.txt to b.txt for me,cp a.txt b.txt
+duplicate a.txt as b.txt,cp a.txt b.txt
+can you make a copy of a.txt to b.txt now,cp a.txt b.txt
+can you copy file from a.txt to b.txt now,cp a.txt b.txt
+can you move a.txt to b.txt now,mv a.txt b.txt
+can you rename a.txt to b.txt for me,mv a.txt b.txt
+shift a.txt to b.txt,mv a.txt b.txt
+how do i relocate a.txt as b.txt,mv a.txt b.txt
+i want to find a file named test.txt please,"find . -name ""test.txt"""
+i want to look for test.txt in current folder for me,"find . -name ""test.txt"""
+how do i search for test.txt right away,"find . -name ""test.txt"""
+how do i locate file test.txt right away,"find . -name ""test.txt"""
+can you show this folder as a tree now,tree
+i want to display directory tree for me,tree
+please visualize folder structure now,tree
+please print folder hierarchy right away,tree
+how do i show the first few lines of file.txt,head file.txt
+display beginning of file.txt right away,head file.txt
+how do i head of file.txt for me,head file.txt
+print top of file.txt right away,head file.txt
+can you show the last few lines of file.txt,tail file.txt
+i want to display end of file.txt,tail file.txt
+can you tail of file.txt,tail file.txt
+i want to print bottom of file.txt please,tail file.txt
+show contents of file.txt right away,cat file.txt
+i want to print file.txt please,cat file.txt
+how do i display file.txt,cat file.txt
+how do i output file.txt content,cat file.txt
+show me the files in this folder,ls
+can you list the files now,ls
+can you display files,ls
+please what's in this directory now,ls
+please show files with details right away,ls -l
+i want to list files with permissions right away,ls -l
+can you display detailed view,ls -l
+please long format list of files now,ls -l
+show all files including hidden ones for me,ls -a
+i want to list everything even hidden for me,ls -a
+can you display all files,ls -a
+can you see hidden files too please,ls -a
+please go into the foldername directory,cd foldername
+i want to enter foldername,cd foldername
+can you change to foldername right away,cd foldername
+open foldername for me,cd foldername
+can you go back one folder please,cd ..
+move up a directory for me,cd ..
+please return to parent folder please,cd ..
+i want to step back one level for me,cd ..
+i want to where am I right now right away,pwd
+show current path now,pwd
+how do i print working directory now,pwd
+how do i display current directory right away,pwd
+how do i make a new folder called myfolder,mkdir myfolder
+i want to create directory myfolder now,mkdir myfolder
+new folder named myfolder,mkdir myfolder
+i want to make folder myfolder now,mkdir myfolder
+delete the empty folder myfolder,rmdir myfolder
+remove myfolder directory please,rmdir myfolder
+how do i delete folder myfolder please,rmdir myfolder
+can you erase empty folder myfolder for me,rmdir myfolder
+please delete the file file.txt for me,rm file.txt
+can you remove file.txt please,rm file.txt
+i want to erase file.txt right away,rm file.txt
+get rid of file.txt,rm file.txt
+delete the folder myfolder and everything inside it for me,rm -r myfolder
+can you remove directory myfolder recursively for me,rm -r myfolder
+how do i delete all contents of myfolder,rm -r myfolder
+please erase myfolder completely for me,rm -r myfolder
+create an empty file named notes.txt,touch notes.txt
+please make a blank file notes.txt right away,touch notes.txt
+please new file notes.txt for me,touch notes.txt
+can you generate file notes.txt right away,touch notes.txt
+please copy a.txt to b.txt,cp a.txt b.txt
+how do i duplicate a.txt as b.txt please,cp a.txt b.txt
+can you make a copy of a.txt to b.txt now,cp a.txt b.txt
+copy file from a.txt to b.txt,cp a.txt b.txt
+can you move a.txt to b.txt please,mv a.txt b.txt
+how do i rename a.txt to b.txt right away,mv a.txt b.txt
+please shift a.txt to b.txt now,mv a.txt b.txt
+please relocate a.txt as b.txt for me,mv a.txt b.txt
+find a file named test.txt for me,"find . -name ""test.txt"""
+i want to look for test.txt in current folder please,"find . -name ""test.txt"""
+i want to search for test.txt right away,"find . -name ""test.txt"""
+how do i locate file test.txt,"find . -name ""test.txt"""
+how do i show this folder as a tree for me,tree
+can you display directory tree for me,tree
+how do i visualize folder structure now,tree
+how do i print folder hierarchy now,tree
+can you show the first few lines of file.txt for me,head file.txt
+display beginning of file.txt,head file.txt
+head of file.txt please,head file.txt
+i want to print top of file.txt right away,head file.txt
+how do i show the last few lines of file.txt,tail file.txt
+i want to display end of file.txt now,tail file.txt
+tail of file.txt please,tail file.txt
+can you print bottom of file.txt please,tail file.txt
+i want to show contents of file.txt please,cat file.txt
+can you print file.txt now,cat file.txt
+how do i display file.txt for me,cat file.txt
+i want to output file.txt content right away,cat file.txt
+i want to show me the files in this folder please,ls
+list the files right away,ls
+i want to display files for me,ls
+can you what's in this directory right away,ls
+how do i show files with details please,ls -l
+i want to list files with permissions,ls -l
+can you display detailed view please,ls -l
+can you long format list of files,ls -l
+please show all files including hidden ones please,ls -a
+i want to list everything even hidden,ls -a
+please display all files for me,ls -a
+how do i see hidden files too now,ls -a
+i want to go into the foldername directory,cd foldername
+please enter foldername right away,cd foldername
+please change to foldername now,cd foldername
+open foldername,cd foldername
+i want to go back one folder,cd ..
+how do i move up a directory for me,cd ..
+can you return to parent folder now,cd ..
+i want to step back one level,cd ..
+can you where am I right now for me,pwd
+how do i show current path,pwd
+how do i print working directory please,pwd
+please display current directory,pwd
+make a new folder called myfolder now,mkdir myfolder
+i want to create directory myfolder now,mkdir myfolder
+can you new folder named myfolder now,mkdir myfolder
+how do i make folder myfolder now,mkdir myfolder
+please delete the empty folder myfolder now,rmdir myfolder
+i want to remove myfolder directory,rmdir myfolder
+can you delete folder myfolder,rmdir myfolder
+how do i erase empty folder myfolder now,rmdir myfolder
+i want to delete the file file.txt now,rm file.txt
+can you remove file.txt,rm file.txt
+can you erase file.txt right away,rm file.txt
+please get rid of file.txt for me,rm file.txt
+please delete the folder myfolder and everything inside it now,rm -r myfolder
+remove directory myfolder recursively,rm -r myfolder
+i want to delete all contents of myfolder now,rm -r myfolder
+please erase myfolder completely now,rm -r myfolder
+how do i create an empty file named notes.txt,touch notes.txt
+how do i make a blank file notes.txt for me,touch notes.txt
+new file notes.txt for me,touch notes.txt
+how do i generate file notes.txt,touch notes.txt
+copy a.txt to b.txt please,cp a.txt b.txt
+how do i duplicate a.txt as b.txt,cp a.txt b.txt
+please make a copy of a.txt to b.txt right away,cp a.txt b.txt
+how do i copy file from a.txt to b.txt please,cp a.txt b.txt
+how do i move a.txt to b.txt,mv a.txt b.txt
+i want to rename a.txt to b.txt right away,mv a.txt b.txt
+i want to shift a.txt to b.txt please,mv a.txt b.txt
+please relocate a.txt as b.txt for me,mv a.txt b.txt
+i want to find a file named test.txt please,"find . -name ""test.txt"""
+can you look for test.txt in current folder,"find . -name ""test.txt"""
+search for test.txt now,"find . -name ""test.txt"""
+locate file test.txt now,"find . -name ""test.txt"""
+how do i show this folder as a tree for me,tree
+please display directory tree,tree
+i want to visualize folder structure please,tree
+print folder hierarchy now,tree
+can you show the first few lines of file.txt please,head file.txt
+display beginning of file.txt now,head file.txt
+can you head of file.txt,head file.txt
+print top of file.txt now,head file.txt
+please show the last few lines of file.txt now,tail file.txt
+how do i display end of file.txt for me,tail file.txt
+how do i tail of file.txt please,tail file.txt
+i want to print bottom of file.txt,tail file.txt
+show contents of file.txt now,cat file.txt
+how do i print file.txt,cat file.txt
+how do i display file.txt,cat file.txt
+how do i output file.txt content right away,cat file.txt
+please show me the files in this folder please,ls
+i want to list the files now,ls
+please display files right away,ls
+how do i what's in this directory please,ls
+please show files with details please,ls -l
+please list files with permissions,ls -l
+display detailed view right away,ls -l
+how do i long format list of files now,ls -l
+i want to show all files including hidden ones please,ls -a
+can you list everything even hidden now,ls -a
+please display all files,ls -a
+i want to see hidden files too for me,ls -a
+can you go into the foldername directory now,cd foldername
+enter foldername for me,cd foldername
+i want to change to foldername for me,cd foldername
+please open foldername,cd foldername
+how do i go back one folder,cd ..
+can you move up a directory right away,cd ..
+how do i return to parent folder,cd ..
+step back one level for me,cd ..
+where am I right now right away,pwd
+can you show current path,pwd
+please print working directory please,pwd
+please display current directory for me,pwd
+i want to make a new folder called myfolder,mkdir myfolder
+please create directory myfolder now,mkdir myfolder
+how do i new folder named myfolder,mkdir myfolder
+can you make folder myfolder please,mkdir myfolder
+i want to delete the empty folder myfolder,rmdir myfolder
+can you remove myfolder directory right away,rmdir myfolder
+how do i delete folder myfolder please,rmdir myfolder
+erase empty folder myfolder,rmdir myfolder
+can you delete the file file.txt please,rm file.txt
+can you remove file.txt for me,rm file.txt
+i want to erase file.txt,rm file.txt
+can you get rid of file.txt please,rm file.txt
+can you delete the folder myfolder and everything inside it please,rm -r myfolder
+can you remove directory myfolder recursively now,rm -r myfolder
+delete all contents of myfolder,rm -r myfolder
+can you erase myfolder completely now,rm -r myfolder
+please create an empty file named notes.txt please,touch notes.txt
+please make a blank file notes.txt please,touch notes.txt
+please new file notes.txt,touch notes.txt
+can you generate file notes.txt,touch notes.txt
+please copy a.txt to b.txt,cp a.txt b.txt
+duplicate a.txt as b.txt right away,cp a.txt b.txt
+can you make a copy of a.txt to b.txt please,cp a.txt b.txt
+can you copy file from a.txt to b.txt for me,cp a.txt b.txt
+how do i move a.txt to b.txt,mv a.txt b.txt
+i want to rename a.txt to b.txt right away,mv a.txt b.txt
+please shift a.txt to b.txt now,mv a.txt b.txt
+how do i relocate a.txt as b.txt for me,mv a.txt b.txt
+please find a file named test.txt for me,"find . -name ""test.txt"""
+please look for test.txt in current folder,"find . -name ""test.txt"""
+how do i search for test.txt,"find . -name ""test.txt"""
+how do i locate file test.txt for me,"find . -name ""test.txt"""
+please show this folder as a tree now,tree
+please display directory tree for me,tree
+please visualize folder structure for me,tree
+print folder hierarchy right away,tree
+show the first few lines of file.txt please,head file.txt
+display beginning of file.txt now,head file.txt
+can you head of file.txt right away,head file.txt
+how do i print top of file.txt please,head file.txt
+i want to show the last few lines of file.txt now,tail file.txt
+please display end of file.txt now,tail file.txt
+i want to tail of file.txt for me,tail file.txt
+can you print bottom of file.txt,tail file.txt
+show contents of file.txt right away,cat file.txt
+i want to print file.txt now,cat file.txt
+please display file.txt now,cat file.txt
+i want to output file.txt content please,cat file.txt
+i want to show me the files in this folder,ls
+please list the files now,ls
+please display files right away,ls
+i want to what's in this directory please,ls
+how do i show files with details please,ls -l
+how do i list files with permissions right away,ls -l
+display detailed view please,ls -l
+how do i long format list of files right away,ls -l
+how do i show all files including hidden ones for me,ls -a
+how do i list everything even hidden please,ls -a
+display all files right away,ls -a
+how do i see hidden files too please,ls -a
+please go into the foldername directory for me,cd foldername
+enter foldername,cd foldername
+can you change to foldername now,cd foldername
+can you open foldername please,cd foldername
+can you go back one folder please,cd ..
+please move up a directory please,cd ..
+how do i return to parent folder now,cd ..
+how do i step back one level now,cd ..
+can you where am I right now please,pwd
+how do i show current path for me,pwd
+can you print working directory now,pwd
+how do i display current directory right away,pwd
+please make a new folder called myfolder now,mkdir myfolder
+please create directory myfolder please,mkdir myfolder
+please new folder named myfolder for me,mkdir myfolder
+can you make folder myfolder for me,mkdir myfolder
+please delete the empty folder myfolder right away,rmdir myfolder
+how do i remove myfolder directory now,rmdir myfolder
+delete folder myfolder right away,rmdir myfolder
+please erase empty folder myfolder for me,rmdir myfolder
+can you delete the file file.txt for me,rm file.txt
+how do i remove file.txt please,rm file.txt
+can you erase file.txt please,rm file.txt
+please get rid of file.txt please,rm file.txt
+how do i delete the folder myfolder and everything inside it right away,rm -r myfolder
+i want to remove directory myfolder recursively,rm -r myfolder
+can you delete all contents of myfolder please,rm -r myfolder
+i want to erase myfolder completely,rm -r myfolder
+how do i create an empty file named notes.txt please,touch notes.txt
+make a blank file notes.txt for me,touch notes.txt
+how do i new file notes.txt right away,touch notes.txt
+please generate file notes.txt for me,touch notes.txt
+please copy a.txt to b.txt now,cp a.txt b.txt
+i want to duplicate a.txt as b.txt,cp a.txt b.txt
+can you make a copy of a.txt to b.txt please,cp a.txt b.txt
+i want to copy file from a.txt to b.txt please,cp a.txt b.txt
+please move a.txt to b.txt right away,mv a.txt b.txt
+please rename a.txt to b.txt right away,mv a.txt b.txt
+shift a.txt to b.txt please,mv a.txt b.txt
+i want to relocate a.txt as b.txt for me,mv a.txt b.txt
+how do i find a file named test.txt now,"find . -name ""test.txt"""
+please look for test.txt in current folder,"find . -name ""test.txt"""
+how do i search for test.txt please,"find . -name ""test.txt"""
+can you locate file test.txt right away,"find . -name ""test.txt"""
+can you show this folder as a tree,tree
+can you display directory tree now,tree
+visualize folder structure now,tree
+i want to print folder hierarchy,tree
+how do i show the first few lines of file.txt for me,head file.txt
+how do i display beginning of file.txt now,head file.txt
+can you head of file.txt right away,head file.txt
+can you print top of file.txt right away,head file.txt
+can you show the last few lines of file.txt please,tail file.txt
+display end of file.txt for me,tail file.txt
+i want to tail of file.txt,tail file.txt
+print bottom of file.txt please,tail file.txt
+please show contents of file.txt please,cat file.txt
+please print file.txt for me,cat file.txt
+can you display file.txt please,cat file.txt
+i want to output file.txt content,cat file.txt
+how do i show me the files in this folder please,ls
+please list the files please,ls
+can you display files please,ls
+can you what's in this directory please,ls
+how do i show files with details for me,ls -l
+list files with permissions please,ls -l
+display detailed view right away,ls -l
+long format list of files for me,ls -l
+how do i show all files including hidden ones right away,ls -a
+please list everything even hidden for me,ls -a
+can you display all files,ls -a
+how do i see hidden files too now,ls -a
+how do i go into the foldername directory now,cd foldername
+please enter foldername for me,cd foldername
+can you change to foldername,cd foldername
+how do i open foldername right away,cd foldername
+how do i go back one folder please,cd ..
+i want to move up a directory right away,cd ..
+can you return to parent folder right away,cd ..
+i want to step back one level,cd ..
+can you where am I right now please,pwd
+please show current path for me,pwd
+please print working directory right away,pwd
+how do i display current directory for me,pwd
+i want to make a new folder called myfolder right away,mkdir myfolder
+how do i create directory myfolder,mkdir myfolder
+how do i new folder named myfolder right away,mkdir myfolder
+can you make folder myfolder right away,mkdir myfolder
+how do i delete the empty folder myfolder for me,rmdir myfolder
+remove myfolder directory right away,rmdir myfolder
+i want to delete folder myfolder for me,rmdir myfolder
+can you erase empty folder myfolder,rmdir myfolder
+delete the file file.txt now,rm file.txt
+please remove file.txt right away,rm file.txt
+i want to erase file.txt for me,rm file.txt
+i want to get rid of file.txt now,rm file.txt
+please delete the folder myfolder and everything inside it now,rm -r myfolder
+i want to remove directory myfolder recursively,rm -r myfolder
+delete all contents of myfolder right away,rm -r myfolder
+erase myfolder completely please,rm -r myfolder
+how do i create an empty file named notes.txt right away,touch notes.txt
+i want to make a blank file notes.txt for me,touch notes.txt
+i want to new file notes.txt please,touch notes.txt
+can you generate file notes.txt please,touch notes.txt
+please copy a.txt to b.txt now,cp a.txt b.txt
+duplicate a.txt as b.txt for me,cp a.txt b.txt
+make a copy of a.txt to b.txt right away,cp a.txt b.txt
+copy file from a.txt to b.txt for me,cp a.txt b.txt
+i want to move a.txt to b.txt,mv a.txt b.txt
+rename a.txt to b.txt now,mv a.txt b.txt
+please shift a.txt to b.txt,mv a.txt b.txt
+please relocate a.txt as b.txt,mv a.txt b.txt
+can you find a file named test.txt now,"find . -name ""test.txt"""
+look for test.txt in current folder for me,"find . -name ""test.txt"""
+can you search for test.txt for me,"find . -name ""test.txt"""
+can you locate file test.txt for me,"find . -name ""test.txt"""
+can you show this folder as a tree right away,tree
+i want to display directory tree please,tree
+how do i visualize folder structure please,tree
+how do i print folder hierarchy now,tree
+please show the first few lines of file.txt right away,head file.txt
+display beginning of file.txt please,head file.txt
+please head of file.txt please,head file.txt
+i want to print top of file.txt please,head file.txt
+show the last few lines of file.txt for me,tail file.txt
+how do i display end of file.txt,tail file.txt
+can you tail of file.txt,tail file.txt
+print bottom of file.txt,tail file.txt
+how do i show contents of file.txt now,cat file.txt
+please print file.txt,cat file.txt
+can you display file.txt for me,cat file.txt
+how do i output file.txt content,cat file.txt
+please show me the files in this folder please,ls
+i want to list the files,ls
+can you display files,ls
+what's in this directory now,ls
+show files with details,ls -l
+how do i list files with permissions please,ls -l
+i want to display detailed view for me,ls -l
+can you long format list of files right away,ls -l
+please show all files including hidden ones for me,ls -a
+can you list everything even hidden right away,ls -a
+please display all files right away,ls -a
+please see hidden files too now,ls -a
+can you go into the foldername directory now,cd foldername
+can you enter foldername,cd foldername
+i want to change to foldername please,cd foldername
+can you open foldername right away,cd foldername
+can you go back one folder for me,cd ..
+i want to move up a directory,cd ..
+how do i return to parent folder,cd ..
+please step back one level please,cd ..
+i want to where am I right now for me,pwd
+can you show current path right away,pwd
+i want to print working directory,pwd
+please display current directory,pwd
+i want to make a new folder called myfolder for me,mkdir myfolder
+can you create directory myfolder please,mkdir myfolder
+can you new folder named myfolder for me,mkdir myfolder
+how do i make folder myfolder please,mkdir myfolder
+delete the empty folder myfolder,rmdir myfolder
+please remove myfolder directory please,rmdir myfolder
+how do i delete folder myfolder for me,rmdir myfolder
+how do i erase empty folder myfolder now,rmdir myfolder
+delete the file file.txt please,rm file.txt
+can you remove file.txt,rm file.txt
+erase file.txt for me,rm file.txt
+please get rid of file.txt right away,rm file.txt
+i want to delete the folder myfolder and everything inside it,rm -r myfolder
+can you remove directory myfolder recursively now,rm -r myfolder
+i want to delete all contents of myfolder please,rm -r myfolder
+erase myfolder completely please,rm -r myfolder
+how do i create an empty file named notes.txt for me,touch notes.txt
+make a blank file notes.txt for me,touch notes.txt
+how do i new file notes.txt for me,touch notes.txt
+i want to generate file notes.txt right away,touch notes.txt
+can you copy a.txt to b.txt,cp a.txt b.txt
+can you duplicate a.txt as b.txt for me,cp a.txt b.txt
+make a copy of a.txt to b.txt now,cp a.txt b.txt
+can you copy file from a.txt to b.txt,cp a.txt b.txt
+move a.txt to b.txt,mv a.txt b.txt
+i want to rename a.txt to b.txt for me,mv a.txt b.txt
+how do i shift a.txt to b.txt right away,mv a.txt b.txt
+how do i relocate a.txt as b.txt please,mv a.txt b.txt
+please find a file named test.txt now,"find . -name ""test.txt"""
+can you look for test.txt in current folder now,"find . -name ""test.txt"""
+i want to search for test.txt for me,"find . -name ""test.txt"""
+i want to locate file test.txt right away,"find . -name ""test.txt"""
+can you show this folder as a tree please,tree
+i want to display directory tree now,tree
+i want to visualize folder structure,tree
+can you print folder hierarchy,tree
+i want to show the first few lines of file.txt right away,head file.txt
+please display beginning of file.txt,head file.txt
+head of file.txt please,head file.txt
+can you print top of file.txt now,head file.txt
+show the last few lines of file.txt right away,tail file.txt
+i want to display end of file.txt for me,tail file.txt
+how do i tail of file.txt,tail file.txt
+print bottom of file.txt right away,tail file.txt
+i want to show contents of file.txt please,cat file.txt
+can you print file.txt,cat file.txt
+please display file.txt right away,cat file.txt
+output file.txt content for me,cat file.txt
+i want to show me the files in this folder,ls
+i want to list the files now,ls
+display files now,ls
+what's in this directory please,ls
+how do i show files with details now,ls -l
+please list files with permissions right away,ls -l
+please display detailed view for me,ls -l
+can you long format list of files please,ls -l
+can you show all files including hidden ones right away,ls -a
+how do i list everything even hidden please,ls -a
+i want to display all files for me,ls -a
+how do i see hidden files too now,ls -a
+please go into the foldername directory now,cd foldername
+enter foldername,cd foldername
+how do i change to foldername right away,cd foldername
+open foldername for me,cd foldername
+go back one folder for me,cd ..
+move up a directory,cd ..
+how do i return to parent folder for me,cd ..
+how do i step back one level now,cd ..
+can you where am I right now now,pwd
+can you show current path,pwd
+please print working directory,pwd
+can you display current directory please,pwd
+can you make a new folder called myfolder for me,mkdir myfolder
+how do i create directory myfolder now,mkdir myfolder
+i want to new folder named myfolder now,mkdir myfolder
+i want to make folder myfolder now,mkdir myfolder
+how do i delete the empty folder myfolder for me,rmdir myfolder
+can you remove myfolder directory please,rmdir myfolder
+please delete folder myfolder now,rmdir myfolder
+i want to erase empty folder myfolder please,rmdir myfolder
+delete the file file.txt for me,rm file.txt
+how do i remove file.txt,rm file.txt
+can you erase file.txt right away,rm file.txt
+get rid of file.txt please,rm file.txt
+i want to delete the folder myfolder and everything inside it right away,rm -r myfolder
+i want to remove directory myfolder recursively,rm -r myfolder
+delete all contents of myfolder,rm -r myfolder
+how do i erase myfolder completely for me,rm -r myfolder
+can you create an empty file named notes.txt now,touch notes.txt
+how do i make a blank file notes.txt please,touch notes.txt
+can you new file notes.txt now,touch notes.txt
+how do i generate file notes.txt now,touch notes.txt
+i want to copy a.txt to b.txt,cp a.txt b.txt
+duplicate a.txt as b.txt please,cp a.txt b.txt
+how do i make a copy of a.txt to b.txt please,cp a.txt b.txt
+how do i copy file from a.txt to b.txt please,cp a.txt b.txt
+how do i move a.txt to b.txt,mv a.txt b.txt
+i want to rename a.txt to b.txt now,mv a.txt b.txt
+i want to shift a.txt to b.txt please,mv a.txt b.txt
+relocate a.txt as b.txt,mv a.txt b.txt
+i want to find a file named test.txt for me,"find . -name ""test.txt"""
+i want to look for test.txt in current folder,"find . -name ""test.txt"""
+how do i search for test.txt right away,"find . -name ""test.txt"""
+locate file test.txt for me,"find . -name ""test.txt"""
+how do i show this folder as a tree,tree
+please display directory tree,tree
+please visualize folder structure for me,tree
+how do i print folder hierarchy,tree
+show the first few lines of file.txt right away,head file.txt
+please display beginning of file.txt right away,head file.txt
+please head of file.txt right away,head file.txt
+i want to print top of file.txt now,head file.txt
+can you show the last few lines of file.txt for me,tail file.txt
+can you display end of file.txt for me,tail file.txt
+tail of file.txt,tail file.txt
+can you print bottom of file.txt for me,tail file.txt
+i want to show contents of file.txt,cat file.txt
+print file.txt,cat file.txt
+please display file.txt now,cat file.txt
+can you output file.txt content right away,cat file.txt
+i want to show me the files in this folder right away,ls
+how do i list the files,ls
+i want to display files,ls
+how do i what's in this directory please,ls
+show files with details for me,ls -l
+list files with permissions please,ls -l
+can you display detailed view now,ls -l
+how do i long format list of files,ls -l
+show all files including hidden ones please,ls -a
+how do i list everything even hidden for me,ls -a
+please display all files please,ls -a
+how do i see hidden files too now,ls -a
+can you go into the foldername directory please,cd foldername
+i want to enter foldername,cd foldername
+please change to foldername please,cd foldername
+please open foldername,cd foldername
+can you go back one folder,cd ..
+how do i move up a directory right away,cd ..
+how do i return to parent folder please,cd ..
+can you step back one level right away,cd ..
+i want to where am I right now for me,pwd
+can you show current path,pwd
+how do i print working directory now,pwd
+can you display current directory please,pwd
+i want to make a new folder called myfolder,mkdir myfolder
+how do i create directory myfolder for me,mkdir myfolder
+i want to new folder named myfolder now,mkdir myfolder
+please make folder myfolder now,mkdir myfolder
+can you delete the empty folder myfolder please,rmdir myfolder
+remove myfolder directory,rmdir myfolder
+delete folder myfolder please,rmdir myfolder
+how do i erase empty folder myfolder please,rmdir myfolder
+delete the file file.txt now,rm file.txt
+remove file.txt,rm file.txt
+please erase file.txt,rm file.txt
+please get rid of file.txt for me,rm file.txt
+delete the folder myfolder and everything inside it right away,rm -r myfolder
+remove directory myfolder recursively please,rm -r myfolder
+how do i delete all contents of myfolder please,rm -r myfolder
+can you erase myfolder completely for me,rm -r myfolder
+please create an empty file named notes.txt please,touch notes.txt
+how do i make a blank file notes.txt for me,touch notes.txt
+how do i new file notes.txt now,touch notes.txt
+can you generate file notes.txt right away,touch notes.txt
+i want to copy a.txt to b.txt for me,cp a.txt b.txt
+i want to duplicate a.txt as b.txt,cp a.txt b.txt
+make a copy of a.txt to b.txt please,cp a.txt b.txt
+how do i copy file from a.txt to b.txt right away,cp a.txt b.txt
+please move a.txt to b.txt now,mv a.txt b.txt
+how do i rename a.txt to b.txt now,mv a.txt b.txt
+can you shift a.txt to b.txt right away,mv a.txt b.txt
+how do i relocate a.txt as b.txt for me,mv a.txt b.txt
+i want to find a file named test.txt now,"find . -name ""test.txt"""
+can you look for test.txt in current folder now,"find . -name ""test.txt"""
+please search for test.txt,"find . -name ""test.txt"""
+i want to locate file test.txt,"find . -name ""test.txt"""
+how do i show this folder as a tree,tree
+please display directory tree now,tree
+i want to visualize folder structure,tree
+can you print folder hierarchy right away,tree
+please show the first few lines of file.txt right away,head file.txt
+please display beginning of file.txt right away,head file.txt
+head of file.txt,head file.txt
+how do i print top of file.txt right away,head file.txt
+can you show the last few lines of file.txt for me,tail file.txt
+please display end of file.txt now,tail file.txt
+tail of file.txt for me,tail file.txt
+print bottom of file.txt now,tail file.txt
+show contents of file.txt right away,cat file.txt
+can you print file.txt now,cat file.txt
+i want to display file.txt now,cat file.txt
+how do i output file.txt content now,cat file.txt
+can you show me the files in this folder now,ls
+can you list the files,ls
+how do i display files,ls
+please what's in this directory for me,ls
+please show files with details for me,ls -l
+please list files with permissions right away,ls -l
+can you display detailed view for me,ls -l
+i want to long format list of files for me,ls -l
+i want to show all files including hidden ones for me,ls -a
+how do i list everything even hidden,ls -a
+i want to display all files now,ls -a
+can you see hidden files too right away,ls -a
+how do i go into the foldername directory for me,cd foldername
+enter foldername,cd foldername
+please change to foldername for me,cd foldername
+how do i open foldername for me,cd foldername
+please go back one folder right away,cd ..
+please move up a directory,cd ..
+i want to return to parent folder please,cd ..
+i want to step back one level,cd ..
+i want to where am I right now please,pwd
+show current path please,pwd
+print working directory please,pwd
+how do i display current directory for me,pwd
+please make a new folder called myfolder,mkdir myfolder
+please create directory myfolder,mkdir myfolder
+i want to new folder named myfolder for me,mkdir myfolder
+can you make folder myfolder now,mkdir myfolder
+i want to delete the empty folder myfolder,rmdir myfolder
+please remove myfolder directory now,rmdir myfolder
+please delete folder myfolder,rmdir myfolder
+i want to erase empty folder myfolder for me,rmdir myfolder
+can you delete the file file.txt right away,rm file.txt
+i want to remove file.txt right away,rm file.txt
+can you erase file.txt,rm file.txt
+i want to get rid of file.txt,rm file.txt
+please delete the folder myfolder and everything inside it right away,rm -r myfolder
+i want to remove directory myfolder recursively right away,rm -r myfolder
+please delete all contents of myfolder for me,rm -r myfolder
+please erase myfolder completely now,rm -r myfolder
+how do i create an empty file named notes.txt,touch notes.txt
+can you make a blank file notes.txt right away,touch notes.txt
+new file notes.txt right away,touch notes.txt
+i want to generate file notes.txt now,touch notes.txt
+how do i copy a.txt to b.txt please,cp a.txt b.txt
+i want to duplicate a.txt as b.txt now,cp a.txt b.txt
+please make a copy of a.txt to b.txt right away,cp a.txt b.txt
+please copy file from a.txt to b.txt for me,cp a.txt b.txt
